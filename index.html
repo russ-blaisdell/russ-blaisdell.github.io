@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>RenkuOS EMail</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+<h1>RenkuOS EMail</h1>
+<p class="lead">The e-mail support built into <a href="https://github.com/RenkuOS/Source">RenkuOS</a>:
+its mail daemon, the Mail app and the E-mail preferences.</p>
+
+<h2>What it does with Google</h2>
+<p>RenkuOS EMail lets a Gmail account be used on a RenkuOS computer. When you add a Gmail account, the
+E-mail preferences open Google's own sign-in page in your browser. After you agree there, RenkuOS EMail
+uses the permission you gave to:</p>
+<ul>
+<li>download your mail and its labels over IMAP, so you can read it on your computer;</li>
+<li>keep your computer and Gmail in step when you read, star, label, archive or delete a message;</li>
+<li>send the mail you write, over SMTP.</li>
+</ul>
+<p>It asks for one permission, <code>https://mail.google.com/</code>, because that is the only one
+Gmail's IMAP and SMTP servers accept.</p>
+
+<h2>Where your data goes</h2>
+<p>Only between your computer and Google. There is no RenkuOS EMail server: your mail and your sign-in
+are never sent to the developers or to anyone else. Details are in the
+<a href="privacy.html">privacy policy</a>.</p>
+
+<h2>Contact</h2>
+<p>Questions and problems: <a href="https://github.com/RenkuOS/Source/issues">RenkuOS issues on GitHub</a>.</p>
+</main>
+<footer><a href="privacy.html">Privacy policy</a></footer>
+</body>
+</html>
